@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color:rgb(87, 26, 87);
+    font-size: 100px;
+}
+
+body{
+    
+    background-image:url(https://getwallpapers.com/wallpaper/full/f/8/3/1198417-4k-galaxy-wallpaper-3840x2160-xiaomi.jpg);
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card{
+width: 400px;
+height: 550px;
+font-family: Arial, Helvetica, sans-serif;
+border: 1px solid rgb(255, 255, 255);
+margin-bottom: 10px;
+border-radius: 20px;
+position: relative;
+}
+.card h1{
+font-size: 65px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(36, 36, 36);
+}
+
+.card img{
+  position:absolute;
+  margin-left: 100px;  
+  border-radius: 100%;
+}
+
+.detail-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 210px;
+}
+
+.detail-container h4{
+color: red;
+}
